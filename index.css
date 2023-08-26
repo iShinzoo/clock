@@ -1,0 +1,30 @@
+.container{
+    margin: 20%; 
+width: auto;
+
+}
+
+.clock-video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+.text{
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.display-text{
+    color: #fff;
+    font-size: 60px;
+    transition: 0.1s;
+}
+.display-text:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
